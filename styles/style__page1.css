@@ -17,18 +17,14 @@ html {
     background-image: url("images/hero.png");
     background-position: top;
     background-size: cover;
-    
     display: flex;
     align-items: center;
-  
 }
 
 .conteiner {
-  
     width: 100%;
     margin: 0 auto;
     background-color: var(--menuColor);
-    
 }
 
 .conteiner2 {
@@ -45,7 +41,6 @@ html {
     color: var(--menuTextColor);
     padding: 15px 0;
     margin: 0 auto; 
-    
 }
 
 a {
@@ -56,18 +51,12 @@ a {
 .navigation__name {
     width: calc(100% / 2);
     font-weight: 700;
-    
-    
-    
 }
 
 .navigation__item {
     width: calc(100% / 6);
     font-size: 14px;
     font-weight: 500;
-   
-   
-    
 }
 
 .main {
@@ -87,6 +76,7 @@ a {
 p span {
     color: #0284c7;
 }
+
 .main-text {
     width: calc(100% / 2 - var(--offset)); 
     font-size: 12px;
@@ -98,6 +88,7 @@ p span {
 
 .button {
     margin-top: 40px;
+    margin-bottom: 40px;
     padding: 10px 50px 10px 50px;
     background-color: #0ea5e9;
     color: #fafafa;
@@ -105,4 +96,182 @@ p span {
     font-family: 'Open Sans', sans-serif;
     border: none;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #737373;
+   
+}
+
+.services-section {
+    max-width: 1000px;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.our-services {
+    color: var(--headlines);
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#services {
+    color: #0369a1;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#aboutUs {
+    color: #0369a1;
+    font-weight: 700;
+    font-size: 26px; 
+}
+
+#reviews {
+    color: #0369a1;
+    font-weight: 700;
+    font-size: 26px;  
+}
+
+.service-list {
+    background-color: #0284c7;
+    display: flex;
+    width: 100%;
+    margin: 0 auto; 
+    height: 200px;
+}
+
+.IMG-service-list {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.item-img {
+    width: calc(100% / 3);
+    height: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    object-fit: contain;
+   
+   
+}
+/*
+.item-img1 {
+    background-image: url("/styles/images/service-3.png");
+}
+*/
+
+.item-img1 {
+    width: calc(100% / 3);
+    height: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-size:contain;
+    background-image: url("/styles/images/service-3.png");
+}
+img {
+    width: 200px;
+    border-radius: 10px;
+       
+ }
+
+.icon-bigArrow {
+    width: 36px;
+    height: 36px;
+  
+  
+}
+
+.photophone2 {
+  background-image: url("images/background-1.png");
+    background-position: top;
+    background-size: cover;
+    display: flex; */
+ 
+   
+}
+
+.about-clinic-section {
+    max-width: 1000px;
+    width: 100%; 
+    margin: 0 auto;
+    color: #171717;
+    font-size: 18px;
+   font-weight: 500;
+   line-height: 1.5;
+   text-align: justify;
+}
+
+.text{
+    margin-bottom: 15px;
+}
+
+.for-button2 {
+display: flex;
+justify-content: flex-end;
+}
+
+.button2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 50px 10px 50px;
+    background-color: #0ea5e9;
+    color: #fafafa;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #737373;
+    margin-left: auto;
+}
+
+.your-feedback {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    max-width: 1024px;
+    width: 100%;
+    
+}
+
+.review {
+    width: calc(100% / 12 * 6 - var(--offset));
+    padding: 20px;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    border-radius: 10px;
+    margin: calc(var(--offset) / 2);
+   box-shadow: 1px 1px 1px 1px #e5e5e5;
+
+}
+
+.review-image-style {
+    width: 80px;
+    height: 80px;
+}
+
+.patient-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0284c7;
+    padding-left: 10px;
+}
+
+.review-patient {
+    font-size: 12px;
+    line-height: 1.3;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #262626;
+   
 }
