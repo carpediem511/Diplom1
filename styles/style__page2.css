@@ -385,9 +385,9 @@ footer {
 
     
     .item-img {
-        flex-direction: column;
+        
         align-items: center;
-      
+        overflow-x: scroll;
     }
 
     .icon-bigArrow {
