@@ -97,6 +97,7 @@ p span {
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px #737373;
+    cursor: pointer;
 }
 
 .services-section {
@@ -266,6 +267,7 @@ p span {
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px #737373;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .your-feedback {
@@ -424,7 +426,7 @@ footer {
 @media (max-width: 768px) {
     .navigation {
         flex-wrap: wrap;
-        margin-left: 5%;
+        justify-content: center;
     }
 
     .navigation__name {
