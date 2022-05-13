@@ -255,7 +255,7 @@ footer {
     }
 
     .name-doctor {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .icon-search {
@@ -268,7 +268,7 @@ footer {
     }
 
     .item {
-        width: calc(100% / 12 * 6);
+        width: calc(100% / 12 * 7);
     }
 
     .contact-info {
